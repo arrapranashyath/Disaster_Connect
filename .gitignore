@@ -1,0 +1,51 @@
+
+# Maven build output
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+src/main/resources/application-local.properties
+
+# Spring Boot / IDE generated files
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-mvnbuild/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Local SRS and design extraction files
+dds_text.txt
+decoded_srs.txt
+extracted_srs.txt
+srs_perfect.txt
